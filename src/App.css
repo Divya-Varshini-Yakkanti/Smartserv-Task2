@@ -36,3 +36,100 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+      display: flex;
+      justify-content: center;;
+      /* align-items: flex-start;
+      padding: 20px
+} */
+}
+.boxone{
+      flex:1;
+      border: 1px solid black;
+      padding: 30px;
+      border-radius: 1px;
+      min-width: 600px;;
+      width: 600px;
+      margin-right: 50px;
+      margin-left:40px;
+      margin-top: 25px;
+      height: 200px;
+      
+}
+.boxtwo{
+  flex:1;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 1px;
+  min-width:600px;
+  width: 600px;
+  margin-left: 50px;
+  margin-right:40px;
+  margin-top: 25px;
+  height: 200px;
+}
+
+.smallbox{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 1px;
+
+}
+.boxthree{
+  
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 1px;
+  
+  margin-top: 30px;
+  margin-right:auto;
+  margin-left:auto;
+  width: 40%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.lastbox{
+  height:600px;
+  width:50%;
+  margin:650px;
+
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+.setting {
+      margin-bottom: 10px
+    }
+    .input {
+      display: none
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: white;
+      color: black;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 1px solid black;
+      margin-bottom: 10px
+    }
+
+    .field-item {
+      cursor: pointer;
+    }
+    
+    .field-item:hover {
+      background-color: #f0f0f0; /* Change this to the color you want when hovering */
+    }
+    
+    .field-item.selected {
+      background-color: lightblue;
+    }
